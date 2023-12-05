@@ -18,6 +18,7 @@ extensible projects.
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/b534af58-2033-46dc-8657-9af1ac49ffe7)
 
 MVC Overview:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/58867d41-6d4d-4e56-86c0-160e7c0daa81)
 
 Demo Video
@@ -32,9 +33,11 @@ To run this project, we need to set up a MySQL database to store the information
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/17cd395f-501f-4b93-afe7-962a63fd47e0)
 
 For the mysql connector google mysql connector and download it, then right click on the project-properties-Build Path-Library, add externals JARs to your library :
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/cf88af52-2b3b-40cc-b23e-da6676748d89)
 
 MySQL Workbench
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/a0536ebf-73df-4ad0-bfa0-cfbbf382a05c)
 
 Server Connection
@@ -45,27 +48,34 @@ Factory Server Command:
 2.)	 javac FactoryServer.java
 3.)	 cd ..
 4.)	 java application.FactoryServer
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/026f40f1-1b89-4b21-899d-b338c35244bc)
 
 In FactoryServer.java please change desktopPath to your corresponding path, in order to receive client’s order:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/2f89e1e3-64a0-4f20-98ee-a0bdc443b9e3)
 
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/65b11765-7a67-4c2a-ab01-3652b78b11cd)
 
 JavaFX
 In eclipse java marketplace download the following:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/0b42a177-bfa1-423e-93a3-91bd73093f1a)
 
 And then google JavaFX download platform-specific SDK :
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/52673770-e17a-4fc2-a740-f2b2421c6e03)
 
 Then go to preference-Java-Build Path add external JARs:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/cb092779-5fbe-4f2d-b739-896bf59fa8ba)
 
 Then right click on the project go to Build Path-Configure Build Path-Library-Add Library-User Library, add JavaFX into our library:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/a2f128f5-b3e3-439a-872d-a710d713d5fd)
 
 Finally, right click on the project go to run as configuration- argument, add this line in the blank then click apply:
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/7ff31cfc-d64d-4485-9b8c-c6a1ba56df94)
 
 How to Use
@@ -75,4 +85,5 @@ Second, run the Main.java, if you don’t have an account just simply create one
 Third, add the items you want to purchase, our shopping cart will show you the total amount, and if you decide to place the order just simply press the place the order button and fill in the payment info. If you place your order successfully our server will receive your order, otherwise you will receive a submit order fail message.
 Finally, our server will receive your order and generate a txt file including your order details and information.
 As a reminder: for the chair image usage, please change the path of product1.jpg to corresponding path in lobby.fxml
+
 ![image](https://github.com/wayne540500/B2B-E-COMMERCE-PLATFORM/assets/69573286/07dbadf2-dcb5-4b0f-b6ea-efd2f2ea5585)
